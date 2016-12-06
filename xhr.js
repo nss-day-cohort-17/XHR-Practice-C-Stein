@@ -25,5 +25,18 @@ function loadMessages(e){
 var myRequest = new XMLHttpRequest()
 
 myRequest.addEventListener("load", loadMessages)
-myRequest.open("GET", "messages.json")
+myRequest.open("GET", "https://mt-slack-clone.firebaseio.com/.json")
 myRequest.send()
+
+
+
+
+
+
+
+
+
+
+
+
+
